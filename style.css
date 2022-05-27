@@ -1,0 +1,72 @@
+#bio {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 5%;
+}
+.line {
+  background-color: black;
+  width: 150px;
+  height: 6px;
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+p {
+  font-size: 25px;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: brown;
+}
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Kanit&display=swap");
+
+.profile {
+  margin-top: 50px;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name {
+  font-size: 60px;
+  line-height: 1.2;
+  font-family: "Dancing Script", cursive;
+}
+
+#welcome {
+  background: linear-gradient(rgb(217, 74, 217), purple);
+}
+.menu {
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  background: white;
+}
+
+.links {
+  font-size: 30px;
+  display: inline;
+  padding-inline: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.links:hover {
+  font-size: 40px;
+  text-decoration: underline;
+  transition: font-size 600ms;
+}
+
+a {
+  color: red;
+  font-style: bold;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#wrigin
